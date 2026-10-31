@@ -1,0 +1,6 @@
+{
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "url": "https://raw.githubusercontent.com/liaces71/yiyue-pacs-update/main/yiyue-pacs-1.1.0-arm64.apk",
+  "notes": "1. 64位专用安装包（arm64-v8a）\n2. 升级源改为 GitHub + 备用站点双通道"
+}
