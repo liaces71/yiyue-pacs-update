@@ -8,26 +8,28 @@
   body { font-family: "Microsoft YaHei", sans-serif; margin: 0; background: #f4f7fb;
          display: flex; align-items: center; justify-content: center; min-height: 100vh; }
   .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(30,90,168,.12);
-          padding: 40px 48px; text-align: center; max-width: 420px; margin: 24px; }
-  .logo { width: 88px; height: 88px; border-radius: 20px; background: #1E5AA8; color: #fff;
-          display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;
-          font-size: 40px; }
-  h1 { font-size: 22px; color: #1a2b45; margin: 8px 0 4px; }
-  .ver { color: #7b8aa0; font-size: 14px; margin-bottom: 24px; }
+          padding: 36px 40px; text-align: center; max-width: 440px; margin: 24px; }
+  .logo { width: 80px; height: 80px; border-radius: 18px; background: #1E5AA8; color: #fff;
+          display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;
+          font-size: 36px; }
+  h1 { font-size: 21px; color: #1a2b45; margin: 6px 0 4px; }
+  .ver { color: #7b8aa0; font-size: 13px; margin-bottom: 22px; }
   a.dl { display: block; background: #1E5AA8; color: #fff; text-decoration: none;
-         padding: 14px; border-radius: 10px; font-size: 16px; font-weight: bold; }
-  a.dl:active { background: #17457f; }
-  .tip { color: #98a5b8; font-size: 12px; margin-top: 18px; line-height: 1.7; text-align: left; }
+         padding: 13px; border-radius: 10px; font-size: 15px; font-weight: bold; margin-bottom: 10px; }
+  a.dl.alt { background: #eaf1fa; color: #1E5AA8; }
+  .tip { color: #98a5b8; font-size: 12px; margin-top: 16px; line-height: 1.7; text-align: left; }
 </style>
 </head>
 <body>
   <div class="card">
     <div class="logo">医</div>
     <h1>易阅云PACS</h1>
-    <div class="ver">v1.0.0 · 支持 Android 5.0+ · 32位/64位通用</div>
-    <a class="dl" href="yiyue-pacs-1.0.0.apk" download>下载安装包 (APK)</a>
+    <div class="ver">v1.1.0 · Android 5.0+ · 32位与64位分开打包</div>
+    <a class="dl" href="https://github.com/liaces71/yiyue-pacs-update/raw/main/yiyue-pacs-1.1.0-arm64.apk">64位版下载（arm64-v8a，推荐）</a>
+    <a class="dl" href="https://github.com/liaces71/yiyue-pacs-update/raw/main/yiyue-pacs-1.1.0-arm32.apk">32位版下载（armeabi-v7a）</a>
+    <a class="dl alt" href="https://github.com/liaces71/yiyue-pacs-update/raw/main/yiyue-pacs-1.1.0-universal.apk">通用版下载（不确定选这个）</a>
     <div class="tip">安装提示：首次安装请允许"安装未知应用"权限。<br>
-    以后新版本会在 APP 内自动提示升级，无需重新下载。</div>
+    不确定手机位数就装通用版；装好后 APP 会按自身位数自动获取对应升级包。</div>
   </div>
 </body>
 </html>
